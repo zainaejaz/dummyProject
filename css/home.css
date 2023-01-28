@@ -1,0 +1,109 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    opacity: 0.5;
+}
+ a:hover {
+  
+    background-color: rgb(214, 35, 35);
+    color: aliceblue;
+    padding: 3px;
+ }
+
+.padding-size{
+    padding-top: 150px;
+}
+.m-right{
+    margin-right: 200px;
+}
+.btn:hover{
+    background-color: orangered;
+}
+.back-video{
+    position: absolute;
+    z-index: -1;
+    bottom: 0;
+    width: 100vw;
+}
+.font-size{
+    font-size: 1.1rem;
+}
+.font-size i{
+    color: orangered;
+}
+
+#About{
+    background: url(../video/images/edward-unsplash-blur.jpg) no-repeat center center/cover;
+    height: 70vh;
+}
+.pic-margin{
+    margin-right: -75px;
+}
+
+.bg-img1{
+
+    background: url(../video/images/artists/joecalih-UmTZqmMvQcw-unsplash.jpg);
+    width: 400px;
+    height: 200px;
+}
+.bg-img2{
+
+    background: url(../video/images/artists/abstral-official-bdlMO9z5yco-unsplash.jpg);
+    width: 400px;
+    height: 200px;
+}
+.bg-img3{
+
+    background: url(../video/images/artists/soundtrap-rAT6FJ6wltE-unsplash.jpg);
+    width: 400px;
+    height: 200px;
+    
+}
+
+#Schdule{
+    background: url(../video/images/nainoa-shizuru-unsplash-blur.jpg) no-repeat center center/cover;
+    height: 120vh;
+}
+
+#Pricing{
+    height: 80vh;
+}
+.margin{
+    margin-right: 20px;
+}
+.icon-size{
+    font-size: 4.5rem;
+}
+.cards-border{
+    border: 2px dotted black;
+}
+
+.form-border{
+    border: 2px solid black;
+}
+#Contact{
+    background-color:rgba(255, 217, 0, 0.5);
+    height: 80vh;
+}
+.contact-size{
+    padding-top: 65px;
+}
+
+.footer-bg{
+    background-color: red;
+    color: aliceblue;
+    opacity: 1;
+}
+
+/* Media query */
+
+/* @media (max-width:992px) {
+
+    .price-box{
+       width: 50vw;
+    }
+} */
